@@ -1,0 +1,18 @@
+.jumbotron{
+margin-bottom: -50px;
+}
+
+.click-item{
+    opacity: 1;
+    margin: 25px;
+    width: 20%;
+    border: solid white 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+}
+
+.click-item:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .5s;
+    opacity: 1;
+}
